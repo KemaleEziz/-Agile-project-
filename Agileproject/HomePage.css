@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.top {
+  margin-top: 30px;
+  width: 860px;
+  height: auto;
+  background-color: #f3f7f6;
+}
+.Navbar {
+  background-color: #51b5c4;
+  border: 1px solid #51b5c4;
+  border-radius: 0px 0px 30px 30px;
+  
+}
+.Navbar span {
+  color: white;
+  display: block;
+  font-size: 13px;
+ 
+}
+.Navbar .dots {
+  color: black;
+ font-size: 30px;
+}
+.Navbar .user{
+  color: black;
+  font-size: 22px;
+  padding-top: 5px;
+
+}
+.Navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.Home-Page {
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+/* columns */
+
+.container2 {
+
+  padding: 0px;
+  height: auto;
+  background-color: #f3f7f6;
+}
+.Company-name {
+  border: 1px solid grey;
+  border-radius: 20px;
+  height: 145px;
+  width: 250px;
+  background-color: white;
+  padding-top: 15px;
+  font-weight: bold;
+ margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.Company-name h5 {
+  padding: 15px;
+  font-weight: bold;
+}
+.Company-name span {
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 13px;
+  font-weight: bolder;
+  
+}
+.logo {
+  background-color: rgb(190, 225, 242) !important;
+  width: 60px !important;
+  height: 70px !important;
+  height: auto;
+  object-fit: contain;
+  border: 1px solid rgb(168, 163, 163);
+  border-radius: 18px;
+  margin-top: 15px;
+}
+.little-columns {
+  
+  border-radius: 18px;
+  text-align: center;
+  height: 145px;
+  width: 115px;
+  background-color: white;
+ 
+}
+.little-columns p {
+
+  text-align: center;
+  font-weight: 900;
+}
+.little-columns span {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.little-columns a {
+  text-decoration: none;
+  color:black ;
+}
+
+.registration{
+  border: 1px solid white;
+  border-radius: 18px;
+  height: 260px;
+  width: 100%;
+  background-color: white;
+}
+.row1 {
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .container2 div {
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .little-columns {
+    padding-left: 0px;
+  }
+  .foot {
+    margin-top: 10px;
+  }
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   .col-2{
+    width: calc(100%/12*3);
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

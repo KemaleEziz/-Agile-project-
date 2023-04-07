@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+ 
+  }
+  .top{
+    width: 860px;
+    height: 100%;
+    background-color: #f3f7f6;
+  }
+  .Navbar {
+    background-color: #51b5c4;
+    border: 1px solid #51b5c4;
+    border-radius: 0px 0px 30px 30px;
+  }
+  .Navbar span {
+    color: white;
+  display: block;
+  font-size: 13px;
+  }
+  .Navbar .dots {
+    color: black;
+   font-size: 30px;
+  }
+  .Navbar .user{
+    color: black;
+    font-size: 22px;
+    padding-top: 5px;
+  
+  }
+  .Navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .License-Details{
+    color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  }
+
+  /* columns */
+
+.btn{
+    border: 1px solid red;
+    border-radius: 25px;
+    width: 160px;
+}
+.Col{
+height: 130px;
+border-radius: 18px;
+background-color: white;
+}
+
+.Columns p{
+    display: inline; 
+   font-weight: 900;
+   font-size: 14px;
+   line-height: 16px;
+}
+.Columns span{
+    font-size: 14px;
+    float: right;
+}
+.registration{
+    border-radius: 18px;
+    background-color: white;
+
+
+}
+.registration p{
+display: inline !important;
+font-weight: 900;
+font-size: 14px;
+
+}
+.registration span{
+    font-weight: 500;
+    font-weight: 900;
+    font-size: 14px;
+}
